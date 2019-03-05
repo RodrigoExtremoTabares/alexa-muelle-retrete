@@ -1,0 +1,39 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": ""
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "es-ES": {
+          "name": "Muelle en el retrete",
+          "smallIconUri": "",
+          "largeIconUri": "",
+          "summary": "",
+          "description": "",
+          "examplePhrases": [
+          ],
+          "keywords": [
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "",
+      "category": "NOVELTY",
+      "distributionCountries": []
+    }
+  }
+}

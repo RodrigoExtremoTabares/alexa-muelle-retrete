@@ -1,0 +1,134 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "la tapa del retrete",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "mejor déjalo",
+            "déjalo",
+            "quiero que canceles",
+            "cancela",
+            "cancelar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "dame ayuda",
+            "necesito ayuda",
+            "ayuda me",
+            "ayúdame",
+            "ayudar",
+            "ayuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "detente",
+            "deten",
+            "detén",
+            "salir",
+            "parar",
+            "para"
+          ]
+        },
+        {
+          "name": "ThrowSpringIntent",
+          "slots": [
+            {
+              "name": "action",
+              "type": "action"
+            }
+          ],
+          "samples": [
+            "{action} otro muelle",
+            "{action} un muelle"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "lanza otro",
+            "tira otro",
+            "tira otro muelle",
+            "claro que sí",
+            "sip",
+            "si",
+            "sí"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no gracias",
+            "claro que no",
+            "nop",
+            "nope",
+            "no"
+          ]
+        },
+        {
+          "name": "ThrowNumberSpringsIntent",
+          "slots": [
+            {
+              "name": "action",
+              "type": "action"
+            },
+            {
+              "name": "number",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{action} {number} muelle",
+            "{action} {number} muelles"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "coges"
+              }
+            },
+            {
+              "name": {
+                "value": "coge"
+              }
+            },
+            {
+              "name": {
+                "value": "lanzas"
+              }
+            },
+            {
+              "name": {
+                "value": "lanza"
+              }
+            },
+            {
+              "name": {
+                "value": "tiras"
+              }
+            },
+            {
+              "name": {
+                "value": "tira"
+              }
+            }
+          ],
+          "name": "action"
+        }
+      ]
+    }
+  }
+}
